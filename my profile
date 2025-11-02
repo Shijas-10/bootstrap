@@ -1,0 +1,36 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+   
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 profile-card">
+        <div class="row align-items-center">
+          
+          <div class="col-md-4 text-center mb-3 mb-md-0">
+            <img src="C:\shijas\photo_2025-11-02_15-25-34.jpg" alt="Profile Picture" class="profile-img">
+          </div>
+          <div class="col-md-8">
+            <h2 class="text-primary"></h2>
+            <p class="text-muted mb-2">Web Developer | Designer | App developert</p>
+            <p>
+              Passionate about creating beautiful and user-friendly web experiences.
+              Skilled in HTML, CSS, JavaScript, and modern frameworks. Always eager to learn and
+              collaborate on exciting projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
