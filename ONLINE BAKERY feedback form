@@ -1,0 +1,113 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> feedback form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="text-center mb-4">
+      
+    <h1><b><i>ONLINE BAKERY</i></b></h1>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-group">
+      <label for="comment">feedback message:</label>
+      <textarea class="form-control" rows="5" id="feedback "></textarea>
+    </div>
+
+    <div class="mb-3">
+
+<label
+class="form-label"> Contact Method</label>
+<select class="form-select"required>
+<option value="">Select one...</option>
+<option>Email</option>
+<option>Phone</option>
+</select>
+</div>
+
+
+
+<div class="form-check">
+  <label class="form-check-label">
+    <h6> Rate our services from 1 to 10 </h6>
+    <input type="radio" class="form-check-input "name="optradio">10
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input"name="optradio" >1
+  </label>
+</div>
+<div class="form-check disabled">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" >2
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input "name="optradio">3
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input "name="optradio">4
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input "name="optradio">5
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input"name="optradio" >6
+  </label>
+</div>
+<div class="form-check disabled">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" >7
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input "name="optradio">8
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input "name="optradio">9
+  </label>
+</div>
+
+
+
+
+<div class ="dropdown">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown"> choose the order </button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">Cake</a>
+<a class="dropdown-item" href="#">Cookies </a>
+<a class="dropdown-item" href="#">Pastries</a>
+</div>
+</div>
+<div class="text-center mb-4">
+<div class="text-centre">
+<button type="submit" class="btn btn-primary ">Submit</button>
+</div>
+</div>
+</body>
+</html>
